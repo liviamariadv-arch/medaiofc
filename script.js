@@ -18,7 +18,7 @@
   paint();
 })();
 
-const CONFIG={WEBHOOK_URL:"https://prjmedai.app.n8n.cloud/webhook-test/medai-eva",TIMEOUT:30000}
+const CONFIG={WEBHOOK_URL:"https://prjmedai.app.n8n.cloud/webhook/medai-eva",TIMEOUT:30000}
 
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
 const el=(t,c,x)=>{const e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e};
